@@ -5,7 +5,7 @@ const profit_or_loss  = ((sp-cp)/cp)*100
 
 
 if(profit_or_loss > 0){
-console.log(" Your profit is "+profit+"%");
+console.log(" Your profit is "+profit_or_loss+"%");
 }
 
 if(profit_or_loss < 0){
